@@ -42,4 +42,5 @@ fn main(){
     // Can store any Unicode character, not just ASCII
     let letter: char = 'a';
     println!("what is first letter? {}", letter);
+    
 }
