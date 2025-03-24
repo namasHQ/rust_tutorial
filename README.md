@@ -57,18 +57,37 @@ rustc --version
 - Type inference
 
 ### 2. Compound Data Types (`2_compound_data_types/`)
-- Arrays
-- Tuples
-- Slices
-- Strings and string slices
-- Ownership and borrowing basics
+- Arrays and their limitations
+- Tuples and multiple return values
+- Slices and memory efficiency
+- String vs string slices (&str)
+- Heap vs Stack allocated strings
 
 ### 3. Functions (`3_functions/`)
 - Function definition and calling
 - Parameters and return values
-- Expressions vs Statements
 - Block expressions
-- Function overloading
+- Expressions vs Statements
+- BMI calculator example
+
+### 4. Ownership (`4_ownership/`)
+- Memory management concepts
+- Ownership rules
+- Value moving
+- Scope and dropping
+- Memory safety principles
+
+### 5. References and Borrowing (`5_references_and_borrowing/`)
+- Understanding references
+- Mutable vs immutable borrowing
+- Reference safety rules
+- Struct implementation example
+- Bank account demonstration
+
+### 6. Variables (`6_variables/`)
+- Variable basics
+- Mutability
+- Variable shadowing
 
 ## Best Practices
 
