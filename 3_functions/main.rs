@@ -31,24 +31,28 @@ fn main() {
     println!("Your BMI is {:.2}", bmi);
 }
 
+// ================================
 // Basic function without parameters
 // Functions can be called before they are defined (hoisting)
 fn hello_world() {
     println!("Hello, rust!");
 }
 
+// ================================
 // Function with a single parameter
 // Parameters must have their type explicitly declared
 fn tell_height(height: u32) {
     println!("You are {}cm tall", height);
 }
 
+// ================================
 // Function with multiple parameters of different types
 // &str is a string slice (reference to string data)
 fn human_id(name: &str, age: u32, height: f32) {
     println!("You are {} and {} years old and {}cm tall", name, age, height);
 }
 
+// ================================
 // Function with return value
 // The return type is specified after the arrow (->)
 // The last expression (without semicolon) becomes the return value
@@ -56,6 +60,7 @@ fn add(a: i32, b: i32) -> i32 {
     a + b  // No semicolon here - this is the return value
 }
 
+// ================================
 // Expressions vs Statements in Rust
 // Expressions:
 // - Return a value
@@ -74,6 +79,7 @@ fn add(a: i32, b: i32) -> i32 {
 //   * Control flow: if condition { ... }
 //   * Expressions with semicolon: x + 1;
 
+// ================================
 // BMI Calculator Function
 // Demonstrates:
 // - Multiple parameters

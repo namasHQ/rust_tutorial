@@ -7,7 +7,7 @@
 // 2. There can only be one owner at a time.
 // 3. When the owner goes out of scope, the value will be dropped.
 
-
+// ================================
 // Example: Each value has one owner
 // fn main() {
 //     let s1 = String::from("RUST"); // s1 is the owner of the value
@@ -18,7 +18,7 @@
 //     s.len()
 // }
 
-
+// ================================
 // Example: There can only be one owner at a time
 // fn main() {
 //     let s1 = String::from("RUST"); // s1 is the owner of the value
@@ -27,7 +27,7 @@
 //     println!("s2: {}", s2); // This will work because s2 is the owner of the value
 // }
 
-
+// ================================
 // Example: When a variable goes out of scope, the value will be dropped
 // fn main() {
 //     let s1 = String::from("RUST");

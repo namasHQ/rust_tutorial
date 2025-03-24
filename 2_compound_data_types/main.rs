@@ -2,8 +2,8 @@
 // This file demonstrates how to work with collections of values in Rust
 // Compound types allow you to group multiple values into one type
 
-// Arrays
 fn main(){
+    // ================================
     // Arrays
     // Fixed-size collection of elements of the same type
     // Size must be known at compile time
@@ -22,6 +22,7 @@ fn main(){
     println!("Fruits Array 2nd: {}", fruits[1]);
     println!("Fruits Array 3rd: {}", fruits[2]);
 
+    // ================================
     // Tuples
     // Fixed-size collection of elements of different types
     // Useful for returning multiple values from a function
@@ -36,6 +37,7 @@ fn main(){
     let mix_tuple2 = (1, true, 'a', [1, 2, 3, 4, 5]);
     println!("Mix Tuple 2: {:?}", mix_tuple2);
 
+    // ================================
     // Slices
     // A reference to a contiguous sequence of elements in a collection
     // Zero-cost abstraction: no runtime overhead
@@ -43,12 +45,14 @@ fn main(){
     let number_slices: &[i32] = &[1, 2, 3, 4, 5];
     println!("Slice: {:?}", number_slices);
 
+    // ================================
     // String slices (&str)
     // Immutable view into string data
     // More efficient than String for read-only operations
     let animal_slices: &[&str] = &["dog", "cat", "bird"];
     println!("Animal Slices: {:?}", animal_slices);
 
+    // ================================
     // String Type (String)
     // Growable, heap-allocated string
     // Owned type (has ownership of the data)
@@ -57,6 +61,7 @@ fn main(){
     stone_cold.push_str("Yeah!");  // Append string slice
     println!("Stone Cold Says: {}", stone_cold);
 
+    // ================================
     // String Slicing
     // Create a view into part of a String
     // Syntax: &string[start..end] (end is exclusive)
