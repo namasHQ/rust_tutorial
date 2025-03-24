@@ -49,8 +49,11 @@ fn main() {
 
     // Immutable borrow to check the balance
     account.check_balance();
-}
 
+    // Mutable borrow to withdraw money
+    account.withdraw(500.45);
+    account.check_balance();
+}
 struct BankAccount {
     owner: String,
     balance: f64,
